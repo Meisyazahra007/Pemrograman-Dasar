@@ -1,0 +1,36 @@
+<!DOCTYPE html >
+<html lang="en">
+  <head>
+    <style>
+     .circle-3d {
+       background: white;
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       animation-timing-function: ballbounce 2s linear infinite;
+       position: relative;
+       background-image: radial-gradient(
+        circle at top,
+          #fe01b1,
+          #222);
+          }
+          ballbounce {
+            0%
+            100%{
+              bottom: -9em;
+            }
+            50%{
+              bottom: 1em;
+              animation-timing-function: ease-out;
+            }
+            
+          }
+          
+    </style>
+  </head>
+  <body>
+    <h1>3d ball animation</h1>
+    <div class="circle-3d"></div>
+  </body>
+</html>
+  
