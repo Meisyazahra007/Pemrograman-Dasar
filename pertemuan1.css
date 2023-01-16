@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', sans-serif ;
+}
+h3 {
+    color: #000000;
+    background: #00ffff;
+}
+
+
+h1 {
+    padding: 25px;
+    text-align: center;
+}
