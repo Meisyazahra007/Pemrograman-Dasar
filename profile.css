@@ -1,0 +1,34 @@
+*{
+    margin: 0;/*membuat jarak antar objek*/
+    padding: 0;/*membuat jarak antar isi dengan kotak*/
+    font-family: Cambria, sans-serif;/*merubah jenis teks*/
+}
+.bg{
+    background-image: url('backgroud.jpg'); /*memasang sebuah gambar backgroud*/
+    background-size: cover;/*agar backgroud menyesuaikan ukuran*/
+    height: 100px;/*agar tinggi backgroud sesuai dengan ukuran device*/
+}
+.photo{
+    width: 150px; /*lebar foto sebesar 150px*/
+    height: 150px;/*meninggikan suatu elemen*/
+    border-radius: 50%; /*untuk membuat foto menjadi bulat sempurna*/
+    
+
+}
+.title{
+    color: #ffffff;/*untuk merubah warna teks*/
+    margin: 10px auto;/*membuat jarak luar (antar objek)*/
+    text-align: center;/*membuat teks element menjadi posisi tengah*/
+}
+.centerbox{
+     width: 500px;/*melebarkan suatu element*/
+     border: 1px solid #ffffff;/*membuat garis border menjadi berwarna*/
+     margin: 0 auto;/*membuat jarak luar antar objek*/
+     padding: 15px;/*memberikan jarak antar isi dengan kotak*/
+     text-align: center;/*membuat text element menjadi posisi tengah*/
+     background-color: rgba(0,0,0, 0.5);/*memberikan warna backgroud dan menjadi transparan*/
+     color: #ffffff;/*memberi warna text*/
+     border-radius: 35px;/*untuk membuat bo*/
+           
+   
+}
