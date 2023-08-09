@@ -1,0 +1,44 @@
+th, td {
+    border: 1px solid rgb(59, 59, 59);
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    align-items: center;
+  }
+
+body{ 
+    background: url(174053-hot_air_balloon-balloon-cappadocia-aircraft-flight-x750.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+input{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(201, 201, 201);
+}
+h2{
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgb(59, 59, 59);
+}
+label{
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgb(43, 43, 43);
+}
+td{
+    color: rgb(54, 54, 54);
+}
+.box {
+    background-color: #bdbdbd;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 800px;
+    text-align: center;
+}
